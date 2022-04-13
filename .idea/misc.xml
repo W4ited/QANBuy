@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/drawable/bg_goods_num.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/drawable/bg_increase_goods_num.xml" value="0.1625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/drawable/bg_reduce_goods_num.xml" value="0.1625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/drawable/bg_settlement.xml" value="0.1625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/drawable/bg_white_8.xml" value="0.1625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/drawable/fragment_home.xml" value="0.1775" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/drawable/fragment_person.xml" value="0.1775" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/drawable/fragment_shopping.xml" value="0.1775" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/drawable/ic_check.xml" value="0.1625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/drawable/ic_checked.xml" value="0.1625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/drawable/imageview_circle.xml" value="0.167" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout-v21/activity_home_fragment.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout-v21/activity_person_fragment.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_check_good.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_click_comment.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_click_comment_item.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_click_introduce.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_home_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_home_gooditem.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_items_click.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_person_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_person_good.xml" value="0.253125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_person_gooditem.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_person_gooditen.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_search.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_search_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_selector.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_selector_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_selector_item_introduce.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_shopping_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_shopping_item_good.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_sign_in.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/activity_sure_buy.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/layout/test.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/menu/navigation_rail_menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/menu/search.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/menu/toolbar.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/QANBuy20/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

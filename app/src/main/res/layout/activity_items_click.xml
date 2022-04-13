@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GoodUtil.Click.ItemsClick">
+
+    <!--商品信息详情-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/Clicks_AppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/Clicks_Search"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            android:elevation="8dp"
+            app:layout_scrollFlags="scroll|enterAlways|snap" >
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QANbuy"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#4697E8" />
+        </com.google.android.material.appbar.MaterialToolbar>
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/Clicks_collapsingToolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:collapsedTitleGravity="center"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/toolbar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_collapseMode="parallax">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/Clicks_Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:scaleType="centerCrop" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/Clicks_Card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Clicks_Image"
+                    android:layout_margin="10dp"
+                    app:cardElevation="8dp"
+                    app:shapeAppearance="@style/ShapeAppearance.App.MediumComponent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/Clicks_Price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/red"
+                            android:textSize="20sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/Clicks_Name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/Clicks_Price"
+                            android:layout_marginTop="12dp"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/Clicks_PriceNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/Clicks_Name"
+                            android:layout_marginTop="5dp"
+                            android:textColor="#808080" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/Clicks_Num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/Clicks_Name"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@id/Clicks_PriceNum"
+                            android:textColor="#808080" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/Clicks_Address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/Clicks_PriceNum"
+                            android:layout_marginTop="5dp"
+                            android:textColor="#808080" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/Clicks_Postage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/Clicks_Num"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@id/Clicks_Address"
+                            android:textColor="#808080" />
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </RelativeLayout>
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/GoodLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                app:tabIndicatorFullWidth="false"
+                app:tabRippleColor="#00000000">
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.tabs.TabLayout>
+
+            <com.example.qanbuy20.Util.NestedScrollableHost
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/GoodViewPager2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp" />
+            </com.example.qanbuy20.Util.NestedScrollableHost>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:background="@color/white">
+
+        <!--改变商品数量-->
+        <RelativeLayout
+            android:layout_marginLeft="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_reduce_goods_num"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:background="@drawable/bg_reduce_goods_num"
+                android:gravity="center"
+                android:text="—"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_goods_num"
+                android:layout_width="40dp"
+                android:layout_height="28dp"
+                android:layout_toRightOf="@+id/tv_reduce_goods_num"
+                android:background="@drawable/bg_goods_num"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_increase_goods_num"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:layout_toRightOf="@+id/tv_goods_num"
+                android:background="@drawable/bg_increase_goods_num"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Clicks_Buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购买"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            style="?attr/materialButtonOutlinedStyle"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Clicks_ShoppingCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加入购物车"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="right"
+            style="?attr/materialButtonOutlinedStyle"/>
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
