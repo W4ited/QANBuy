@@ -34,7 +34,5 @@ public class HomeBaseQuickAdapter extends BaseQuickAdapter<HomeGood, BaseViewHol
 
         ImageView goodPic = baseViewHolder.getView(R.id.home_goodPic);
         Glide.with(getContext()).load(homeGood.getGoodPic()).into(goodPic);
-
-
     }
 }

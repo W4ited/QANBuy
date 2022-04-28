@@ -189,7 +189,7 @@ public class PersonFragment extends Fragment implements View.OnClickListener {
     }
 
     //登陆返回
-    //谷歌已经废弃
+    //谷歌已经废弃 可以学习新的
     @Override
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);

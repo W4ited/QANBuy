@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager2 viewPager2;
     private List<Fragment> fragmentList = new ArrayList<>();
     final String[] titleArray = new String[]{"首页", "购物车", "我的"};
-    final int[] titleItem = new int[]{R.drawable.fragment_home,R.drawable.fragment_shopping,R.drawable.fragment_person};
+    final int[] titleItem = new int[]{R.drawable.fragment_home, R.drawable.fragment_shopping, R.drawable.fragment_person};
 
     private Context context;
 
@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 //设置图标和名称
                 tab.setText(titleArray[position]);
                 tab.setIcon(titleItem[position]);
-
             }
         });
         //注意要加这个
